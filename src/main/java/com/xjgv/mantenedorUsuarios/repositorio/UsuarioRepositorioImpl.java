@@ -9,7 +9,7 @@ import java.util.List;
 
 import static com.xjgv.mantenedorUsuarios.util.ConexionBaseDatos.obtenerInstancia;
 
-public class UsuarioRepositorioImpl implements Repositorio{
+public class UsuarioRepositorioImpl implements Repositorio<Usuario>{
 
     private Connection obtenerConexion() throws SQLException {
         return ConexionBaseDatos.obtenerInstancia();
