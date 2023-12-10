@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConexionBaseDatos {
 
-    private static String url = "jdbc:mysql://localhost:3305/mantenedor_usuarios?serverTimeZone/America/Mexico_City";
+    private static String url = "jdbc:mysql://localhost:3306/mantenedor_usuarios?serverTimezone=America/Santiago";
     private static String username = "root";
     private static String password = "admin";
 
